@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="stylecalculadora.css" type="text/css">
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="main">
+            <div class="display">
+                <p id="output">0</p>
+
+            </div>
+            <div class="firts-row">
+                <button id="r1-1" class="boton-ancho" onclick="limpiar()">C</button>
+                <button id="r1-2" onclick="divide()">%</button>
+                <button id="r1-3" onclick="visor('/')">/</button>
+            </div>
+
+            <div class="second-row">
+                <button id="r2-1" onclick="visor('7')">7</button>
+                <button id="r2-2" onclick="visor('8')">8</button>
+                <button id="r2-3" onclick="visor('9')">9</button>
+                <button id="r2-4" onclick="visor('*')">X</button>
+            </div>
+
+            <div class="third-row">
+                <button id="r3-1" onclick="visor('4')">4</button>
+                <button id="r3-2" onclick="visor('5')">5</button>
+                <button id="r3-3" onclick="visor('6')">6</button>
+                <button id="r3-4" onclick="visor('-')">-</button>
+            </div>
+
+            <div class="fourth-row">
+                <button id="r4-1" onclick="visor('1')">1</button>
+                <button id="r4-2" onclick="visor('2')">2</button>
+                <button id="r4-3" onclick="visor('3')">3</button>
+                <button id="r4-4" onclick="visor('+')">+</button>
+            </div>
+
+            <div class="fifth-row">
+                <button id="r5-1" onclick="visor('0')">0</button>
+                <button id="r5-2" class="boton-ancho" onclick="visor('.')">.</button>
+                <button id="r5-3" onclick="resultado()">=</button>
+               
+
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

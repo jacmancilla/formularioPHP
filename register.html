@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Introducción formularios web</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Mi Segundo Formulario" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <form action="registration.php" method="post" name="signup-form">
+
+        <div class="form-element">
+            <label>USER</label>
+            <input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
+        </div>
+
+        <div class="form-element">
+            <label>EMAIL</label>
+            <input type="email" name="email" required />
+        </div>
+
+        <div class="form-element">
+            <label>TELEFONO</label>
+            <input type="text" name="telefono" pattern="[0-9]{9}" required />
+        </div>
+
+        <div class="form-element">
+            <label>PASSWORD</label>
+            <input type="password" name="password" required />
+        </div>
+        <button type="submit" name="register" value="register">REGISTER</button>
+
+    </form>
+
+
+
+</body>
+
+
+
+</html>

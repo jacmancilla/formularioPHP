@@ -1,0 +1,33 @@
+html{
+    font-family: arial;
+}
+.display{
+    background-color: #a5bec4;
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+}
+
+button{
+    padding: 10px;
+    width: 68px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #c6ac99;
+    font-size: 20px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: #eee3dc;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    background-color: #eee3dc;
+}
+.boton-ancho{
+    width: 139px;
+}
